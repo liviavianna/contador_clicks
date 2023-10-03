@@ -16,7 +16,7 @@ def acrescentar():
 
 def diminuir():
     global numero
-    numero -=  1
+    numero -= 1
     contagem_click.configure(text=numero)
 
 
